@@ -1,4 +1,5 @@
 🌦️ Climato Weather App 🌦️
+
 📌 Project Overview
 Climato is a modern and user-friendly weather forecasting web app that provides real-time weather updates. Built using ReactJS, the app fetches weather data from an API and displays essential details such as temperature, humidity, wind speed, and weather conditions for any location.
 To develop a real-time weather application that allows users to check the current weather conditions of any city by fetching data from a weather API.
