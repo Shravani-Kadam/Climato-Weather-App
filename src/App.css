@@ -1,0 +1,121 @@
+/* General Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  /*background: url("https://source.unsplash.com/1600x900/?weather,sky") no-repeat center center fixed;*/
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main Container */
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.419);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 400px;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.weather-container {
+  margin-top: 20px;
+  padding: 4px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  color:black;
+  font-size: 1rem;
+  width: 95%;
+}
+
+/* Dark Mode */
+.dark {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Input Field */
+.input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: center;
+  border: 2px solid #4592fd;
+  border-radius: 15px;
+}
+
+/* Button */
+.button {
+  background: #f5629f;
+  color: rgb(251, 249, 249);
+  padding: 10px 15px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background: #f84c93;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.604);
+}
+
+/* Mode Toggle */
+.mode-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 15px 20px;
+  background: #f35697;
+  border: none;
+  color: aliceblue;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.522);
+}
+
+.mode-toggle:hover {
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.81);
+}
+
+
+/* Loading Animation */
+.loading {
+  font-size: 16px;
+  color: #ff9800;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 4500px) {
+  .container {
+    width: 75%;
+    padding: 15px;
+    margin-left: 35px;
+  }
+  .mode-toggle {
+    padding: 5px 10px;
+  }
+  
+}
